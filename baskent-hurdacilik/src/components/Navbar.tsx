@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { Phone, MessageCircle, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { siteData } from '@/data/siteData';
@@ -26,7 +25,13 @@ export function Navbar() {
       <div className="section-shell flex h-16 items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2 font-semibold text-slate-900">
-            <Image src="/logo.png" alt={siteData.brandName} width={38} height={38} className="rounded-md" />
+            <img
+              src="/BaskentHurdacilik/logo.png"
+              alt={siteData.brandName}
+              width={38}
+              height={38}
+              className="rounded-md"
+            />
             <div className="leading-tight">
               <div className="text-sm uppercase tracking-[0.12em] text-slate-500">{siteData.ownerName}</div>
               <div>{siteData.brandName}</div>

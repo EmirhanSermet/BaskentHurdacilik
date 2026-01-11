@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: siteData.meta.defaultDescription,
     url: siteData.meta.siteUrl,
     siteName: siteData.brandName,
-    images: [{ url: buildAbsoluteUrl('/logo.png'), width: 800, height: 600, alt: siteData.brandName }],
+   images: [{ url: buildAbsoluteUrl('/BaskentHurdacilik/logo.png'), width: 800, height: 600, alt: siteData.brandName }],
     locale: 'tr_TR',
     type: 'website'
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteData.meta.defaultTitle,
     description: siteData.meta.defaultDescription,
-    images: [buildAbsoluteUrl('/logo.png')]
+    images: [buildAbsoluteUrl('/BaskentHurdacilik/logo.png')]
   }
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'RecyclingCenter',
     name: siteData.brandName,
     url: siteData.meta.siteUrl,
-    image: buildAbsoluteUrl('/logo.png'),
+    image: buildAbsoluteUrl('/BaskentHurdacilik/logo.png'),
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Ankara',
