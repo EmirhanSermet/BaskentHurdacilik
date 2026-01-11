@@ -90,7 +90,7 @@ export const siteData: SiteData = {
       pricePerUnit: 410,
       note: 'Temiz, yanmamış bakır için ortalama fiyat.',
       description: 'Bakır kablo, boru ve talaş alımı. Çıkma ve söküm işleri için yerinde keşif yapılır.',
-      imageUrl: '/scrap-types/bakir-hurda.jpeg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/bakir-hurda.jpeg',
       lastUpdated: '2026-01-11',
       tags: ['kablo', 'boru', 'iletken']
     },
@@ -102,7 +102,7 @@ export const siteData: SiteData = {
       pricePerUnit: 75,
       note: 'Profil ve döküm ayrımı yerinde yapılır.',
       description: 'Alüminyum profil, levha ve döküm hurdaları için hızlı fiyat.',
-      imageUrl: '/scrap-types/aluminyum-profil.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/aluminyum-profil.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -113,7 +113,7 @@ export const siteData: SiteData = {
       pricePerUnit: 14,
       note: 'Karışık demir için ortalama fiyat; yüklü tonajlarda yerinde teklif.',
       description: 'İnşaat hurdası, profil, DKP ve karışık demir alımı.',
-      imageUrl: '/scrap-types/demir-hurda.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/demir-hurda.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -124,7 +124,7 @@ export const siteData: SiteData = {
       pricePerUnit: 210,
       note: 'Musluk, vana ve pirinç talaşı için ayrı fiyatlandırma.',
       description: 'Sarı pirinç hurdası; talaş ve parça için temizleme sonrası ödeme.',
-      imageUrl: '/scrap-types/sari-pirinc.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/sari-pirinc.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -135,7 +135,7 @@ export const siteData: SiteData = {
       pricePerUnit: 120,
       note: 'Bakır oranı ve yanık durumuna göre değişir.',
       description: 'Enerji, data ve yer altı kabloları için yerinde ayrıştırma.',
-      imageUrl: '/scrap-types/kablo-karisik.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/kablo-karisik.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -146,7 +146,7 @@ export const siteData: SiteData = {
       pricePerUnit: 7,
       note: 'Renk ayrımı fiyatı değiştirir.',
       description: 'PET şişe ve plastik ambalaj geri dönüşümü için düzenli alım.',
-      imageUrl: '/scrap-types/pet-sise.jpeg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/pet-sise.jpeg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -157,7 +157,7 @@ export const siteData: SiteData = {
       pricePerUnit: 23,
       note: 'PP, PE, ABS türlerine göre fiyat değişir.',
       description: 'Üretim artığı, fire ve kırpıntı plastiklerin alımı.',
-      imageUrl: '/scrap-types/plastik-granulr.png',
+      imageUrl: '/BaskentHurdacilik/scrap-types/plastik-granulr.png',
       lastUpdated: '2026-01-11'
     },
     {
@@ -168,7 +168,7 @@ export const siteData: SiteData = {
       pricePerUnit: 6,
       note: 'Nem ve karışım oranı fiyatı etkiler.',
       description: 'Ofis kağıdı, kitap, karton ve koli hurdaları düzenli alım.',
-      imageUrl: '/scrap-types/kagit-karton.jpeg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/kagit-karton.jpeg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -179,7 +179,7 @@ export const siteData: SiteData = {
       pricePerUnit: 180,
       note: 'Kart tipi ve altın oranına göre değişir.',
       description: 'Bilgisayar kartları, sunucu kartları ve komponent alımı.',
-      imageUrl: '/scrap-types/e-atik-karti.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/e-atik-karti.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -190,7 +190,7 @@ export const siteData: SiteData = {
       pricePerUnit: 320,
       note: 'CPU/RAM içeriği fiyata eklenir.',
       description: 'Data center ve kurumsal e-atıklar için kapıda teklif.',
-      imageUrl: '/scrap-types/anakart-server.webp',
+      imageUrl: '/BaskentHurdacilik/scrap-types/anakart-server.webp',
       lastUpdated: '2026-01-11'
     },
     {
@@ -201,7 +201,7 @@ export const siteData: SiteData = {
       pricePerUnit: 3.5,
       note: 'Renk ayrımı yapılmış ürünler için.',
       description: 'Cam şişe ve kavanoz geri dönüşümü, toplu alım.',
-      imageUrl: '/scrap-types/cam-sise.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/cam-sise.jpg',
       lastUpdated: '2026-01-11'
     },
     {
@@ -212,7 +212,7 @@ export const siteData: SiteData = {
       pricePerUnit: 55,
       note: 'Islak/kuru durumu ve ebatına göre fiyat.',
       description: 'Otomotiv ve endüstriyel aküler için yerinde alım.',
-      imageUrl: '/scrap-types/aku-hurda.jpg',
+      imageUrl: '/BaskentHurdacilik/scrap-types/aku-hurda.jpg',
       lastUpdated: '2026-01-11'
     }
   ],
