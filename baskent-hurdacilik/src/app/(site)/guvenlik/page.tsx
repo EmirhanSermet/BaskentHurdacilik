@@ -1,4 +1,4 @@
-import { Shield, Lock, Activity, FileShield } from 'lucide-react';
+import { Shield, Lock, Activity, ShieldCheck } from 'lucide-react';
 
 export default function GuvenlikPage() {
   return (
@@ -12,7 +12,7 @@ export default function GuvenlikPage() {
         {[{ icon: Shield, title: 'Security headers', desc: 'CSP, HSTS, X-Frame-Options, Referrer-Policy uygulanır.' },
           { icon: Lock, title: 'Form koruması', desc: 'Basit honeypot ile spam engeli; backend maliyeti yok.' },
           { icon: Activity, title: 'Harici script minimizasyonu', desc: 'Sadece Google Maps iframe ve Unsplash görselleri.' },
-          { icon: FileShield, title: 'Statik çıktı', desc: 'output: export ile statik odaklı yayın; API yüzeyi yok.' }].map((item) => (
+          { icon: ShieldCheck, title: 'Statik çıktı', desc: 'output: export ile statik odaklı yayın; API yüzeyi yok.' }].map((item) => (
           <div key={item.title} className="card space-y-2 p-4">
             <item.icon className="h-5 w-5 text-accent" />
             <div className="text-lg font-bold text-slate-900">{item.title}</div>
