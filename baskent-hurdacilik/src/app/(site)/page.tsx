@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ShieldCheck, Sparkles, ArrowRight, MapPin, Phone, MessageCircle, Calculator, CheckCircle2 } from 'lucide-react';
 import { siteData } from '@/data/siteData';
 import { TypeCard } from '@/components/TypeCard';
@@ -14,8 +15,11 @@ export default function HomePage() {
 
   return (
     <div className="space-y-16 pb-16">
-      <section className="section-shell grid items-center gap-10 pt-10 lg:grid-cols-[1.1fr_0.9fr]">
-        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="space-y-6">
+      <section className="section-shell relative grid items-center gap-10 pt-10 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.03]">
+          <Image src="/logo.png" alt="" width={600} height={600} className="object-contain" priority />
+        </div>
+        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="relative z-10 space-y-6">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600 shadow-sm">
             Ankara geneli · Aynı gün iletişim
           </div>
@@ -57,7 +61,7 @@ export default function HomePage() {
           </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, y: 32 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, delay: 0.15 }}>
+        <motion.div initial={{ opacity: 0, y: 32 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, delay: 0.15 }} className="relative z-10">
           <PriceCalculator />
         </motion.div>
       </section>
