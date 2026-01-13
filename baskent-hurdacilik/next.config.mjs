@@ -31,9 +31,9 @@ const nextConfig = {
   trailingSlash: true,
 
   // Repo adı: BaskentHurdacilik
-  // Proje alt klasörde olduğu için basePath şart
-  basePath: "/BaskentHurdacilik",
-  assetPrefix: "/BaskentHurdacilik/",
+  // Proje alt klasörde olduğu için basePath şart (production'da)
+  basePath: process.env.NODE_ENV === 'production' ? "/BaskentHurdacilik" : "",
+  assetPrefix: process.env.NODE_ENV === 'production' ? "/BaskentHurdacilik/" : "",
 
   images: {
     unoptimized: true,

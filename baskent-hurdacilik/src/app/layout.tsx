@@ -67,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="tr" className={manrope.variable}>
-      <body className="min-h-screen bg-sand text-slate-900">
+      <body className="min-h-screen bg-sand text-slate-900 relative">
         <script
           type="application/ld+json"
           suppressHydrationWarning

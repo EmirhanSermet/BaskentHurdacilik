@@ -8,8 +8,32 @@
 
 body {
   @apply bg-sand text-slate-900 antialiased;
-  background-image: theme('backgroundImage.radial-faint');
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(14,165,233,0.12), transparent 35%), 
+    radial-gradient(circle at 80% 0%, rgba(14,165,233,0.08), transparent 25%), 
+    radial-gradient(circle at 50% 80%, rgba(34,197,94,0.1), transparent 30%);
+  background-size: auto;
   background-attachment: fixed;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('/logo.png') no-repeat center center / 800px 800px fixed;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 1;
 }
 
 a {
@@ -18,6 +42,8 @@ a {
 
 .section-shell {
   @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+  position: relative;
+  z-index: 10;
 }
 
 .card {
