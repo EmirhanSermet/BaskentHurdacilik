@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ShieldCheck, Sparkles, ArrowRight, MapPin, Phone, MessageCircle, Calculator, CheckCircle2 } from 'lucide-react';
 import { siteData } from '@/data/siteData';
 import { TypeCard } from '@/components/TypeCard';
