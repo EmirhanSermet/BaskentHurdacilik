@@ -27,7 +27,7 @@ export function Navbar() {
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2 font-semibold text-slate-900">
             <Image
-              src="/logo.png"
+              src="/BaskentHurdacilik/logo.png"
               alt={siteData.brandName}
               width={38}
               height={38}
