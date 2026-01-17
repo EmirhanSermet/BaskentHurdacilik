@@ -30,10 +30,6 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
 
-  // Repo adı: BaskentHurdacilik
-  // Proje alt klasörde olduğu için basePath her zaman gerekli
-  basePath: "/BaskentHurdacilik",
-  assetPrefix: "/BaskentHurdacilik/",
 
   images: {
     unoptimized: true,
