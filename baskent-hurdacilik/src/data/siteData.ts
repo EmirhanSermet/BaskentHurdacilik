@@ -267,7 +267,7 @@ export const siteData: SiteData = {
     }
   ],
   meta: {
-    siteUrl: 'https://www.orneksite.com',
+    siteUrl: 'https://baskenthurdacilik.com',
     defaultTitle: 'Başkent Hurdacılık – Ankara Hurda & Geri Dönüşüm',
     defaultDescription: 'Ankara’da hurda bakır, alüminyum, demir, plastik, kağıt ve e-atık için şeffaf fiyat ve aynı gün iletişim.',
     keywords: [
