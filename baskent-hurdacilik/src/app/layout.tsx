@@ -4,6 +4,7 @@ import './globals.css';
 import { siteData } from '@/data/siteData';
 import { buildAbsoluteUrl } from '@/lib/format';
 import { SiteShell } from '@/components/SiteShell';
+import Script from 'next/script'
 
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
 
@@ -67,6 +68,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="tr" className={manrope.variable}>
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449280071315340"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
+  
       <body className="min-h-screen bg-sand text-slate-900 relative">
         <script
           type="application/ld+json"
