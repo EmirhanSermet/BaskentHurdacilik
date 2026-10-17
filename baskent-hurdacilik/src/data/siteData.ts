@@ -87,11 +87,11 @@ export const siteData: SiteData = {
       name: 'Bakır Hurda',
       category: 'Metal',
       unit: 'kg',
-      pricePerUnit: 410,
+      pricePerUnit: 610,
       note: 'Temiz, yanmamış bakır için ortalama fiyat.',
       description: 'Bakır kablo, boru ve talaş alımı. Çıkma ve söküm işleri için yerinde keşif yapılır.',
       imageUrl: '/scrap-types/bakir-hurda.jpeg',
-      lastUpdated: '2026-01-11',
+      lastUpdated: '2026-10-17',
       tags: ['kablo', 'boru', 'iletken']
     },
     {
@@ -99,33 +99,33 @@ export const siteData: SiteData = {
       name: 'Alüminyum Profil',
       category: 'Metal',
       unit: 'kg',
-      pricePerUnit: 75,
+      pricePerUnit: 125,
       note: 'Profil ve döküm ayrımı yerinde yapılır.',
       description: 'Alüminyum profil, levha ve döküm hurdaları için hızlı fiyat.',
       imageUrl: '/scrap-types/aluminyum-profil.jpg',
-      lastUpdated: '2026-01-11'
+      lastUpdated: '2026-10-17'
     },
     {
       slug: 'demir-hurda',
       name: 'Demir Hurda',
       category: 'Metal',
       unit: 'kg',
-      pricePerUnit: 10,
+      pricePerUnit: 13,
       note: 'Karışık demir için ortalama fiyat; yüklü tonajlarda yerinde teklif.',
       description: 'İnşaat hurdası, profil, DKP ve karışık demir alımı.',
       imageUrl: '/scrap-types/demir-hurda.jpg',
-      lastUpdated: '2026-01-11'
+      lastUpdated: '2026-10-17'
     },
     {
       slug: 'sari-pirinc',
       name: 'Sarı (Pirinç)',
       category: 'Metal',
       unit: 'kg',
-      pricePerUnit: 210,
+      pricePerUnit: 320,
       note: 'Musluk, vana ve pirinç talaşı için ayrı fiyatlandırma.',
       description: 'Sarı pirinç hurdası; talaş ve parça için temizleme sonrası ödeme.',
       imageUrl: '/scrap-types/sari-pirinc.jpg',
-      lastUpdated: '2026-01-11'
+      lastUpdated: '2026-10-17'
     },
     {
       slug: 'kablo-karisik',
@@ -143,11 +143,11 @@ export const siteData: SiteData = {
       name: 'PET Şişe',
       category: 'Plastik',
       unit: 'kg',
-      pricePerUnit: 7,
+      pricePerUnit: 10,
       note: 'Renk ayrımı fiyatı değiştirir.',
       description: 'PET şişe ve plastik ambalaj geri dönüşümü için düzenli alım.',
       imageUrl: '/scrap-types/pet-sise.jpeg',
-      lastUpdated: '2026-01-11'
+      lastUpdated: '2026-10-17'
     },
     {
       slug: 'plastik-granul',
@@ -165,11 +165,11 @@ export const siteData: SiteData = {
       name: 'Kağıt & Karton',
       category: 'Kağıt',
       unit: 'kg',
-      pricePerUnit: 4,
+      pricePerUnit: 5,
       note: 'Nem ve karışım oranı fiyatı etkiler.',
       description: 'Ofis kağıdı, kitap, karton ve koli hurdaları düzenli alım.',
       imageUrl: '/scrap-types/kagit-karton.jpeg',
-      lastUpdated: '2026-01-11'
+      lastUpdated: '2026-10-17'
     },
     {
       slug: 'e-atik-karti',
